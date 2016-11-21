@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Mosaddek">
+    <meta name="keyword" content="">
+    <link rel="shortcut icon" href="img/favicon.png">
+
+    <title>Admin page</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-reset.css" rel="stylesheet">
+    <!--external css-->
+    <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style-responsive.css" rel="stylesheet" />
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 tooltipss and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+  <section id="container" class="">
+      <!--header start-->
+      <header class="header white-bg">
+          <div class="sidebar-toggle-box">
+              <div data-original-title="Toggle Navigation" data-placement="right" class="icon-reorder tooltips"></div>
+          </div>
+          <!--logo start-->
+          <a href="admin_page.html" class="logo" >Admin<span>panel</span></a>
+          <!--logo end-->
+            
+          <div class="top-nav ">
+              <ul class="nav pull-right top-menu">
+                  <!-- user login dropdown start-->
+                  <li class="dropdown">
+                      <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                          <img alt="" src="img/avatar-mini.jpg">
+                          <span class="username">Hao Lee</span>
+                          <b class="caret"></b>
+                      </a>
+                      <ul class="dropdown-menu extended logout">
+                          <div class="log-arrow-up"></div>
+                          <li><a href="admin_login.html"><i class="icon-key"></i> Log Out</a></li>
+                      </ul>
+                  </li>
+                  <!-- user login dropdown end -->
+              </ul>
+          </div>
+      </header>
+      <!--header end-->
+      
+      <!--sidebar start-->
+      <aside>
+          <div id="sidebar"  class="nav-collapse ">
+              <!-- sidebar menu start-->
+              <ul class="sidebar-menu" id="nav-accordion">
+                  
+                  <li class="sub-menu">
+                      <a href="javascript:;" class="active" >
+                          <i class=" icon-dashboard"></i>
+                          <span>HORSE RACING</span>
+                      </a>
+                      <ul class="sub">
+                          <li class="active"><a  href="transaction_history.html">Transaction History</a></li>
+                          <li><a  href="add_new_agent.html">Add New Agent</a></li>
+                          <li><a  href="add_new_username.html">Add New Username</a></li>
+                          <li><a  href="show_all.html">Show All</a></li>
+                          <li><a  href="report.html">Report</a></li>
+                          <li><a  href="generate_statement.html">Generate statement</a></li>
+                      </ul>
+                  </li>
+                  <li>
+                      <a  href="admin_login.html">
+                          <i class="icon-key"></i>
+                          <span>Logout</span>
+                      </a>
+                  </li>
+                  
+              </ul>
+              <!-- sidebar menu end-->
+          </div>
+      </aside>
+      <!--sidebar end-->
+      <!--main content start-->
+      <section id="main-content">
+          <section class="wrapper site-min-height">
+              <!-- page start-->
+              
+              <!-- form search start -->
+              <div class="row">
+                <div class="col-lg-12">
+                      <section class="panel">
+                          <header class="panel-heading">
+                              Search Agent/Username
+                          </header>
+                          <div class="panel-body">
+                              <form class="form-inline" role="form">
+                                  <div class="form-group">
+                                      <label class="sr-only">Agent/Username</label>
+                                      <input type="text" class="form-control" placeholder="">
+                                  </div>
+                                  <button type="button" class="btn btn-success">Search</button>
+                              </form>
+
+                          </div>
+                      </section>
+
+                  </div>
+              </div>
+              <!-- form search end -->
+              
+              
+              <!-- table start -->
+              <div class="row">                  
+                  <div class="col-sm-12">
+                      <section class="panel">
+                          <header class="panel-heading">
+                              List Agent/Username
+                          </header>
+                          <table class="table table-hover table-bordered">
+                              <thead>
+                              <tr>
+                                  <th>#</th>
+                                  <th>Agent Name</th>
+                                  <th>Username</th>
+                                  <th>Status</th>
+                                  <th>Old remark</th>
+                                  <th>New remark</th>
+                                  <th>Update time</th>
+                              </tr>
+                              </thead>
+                              <tbody>
+                              <tr>
+                                  <td>1</td>
+                                  <td>wong</td>
+                                  <td>wong1</td>
+                                  <td>from active change to inactive</td>
+                                  <td></td>
+                                  <td></td>
+                                  <td>20/12/2014 6.20pm</td>
+                              </tr>
+                              <tr>
+                                  <td>2</td>
+                                  <td>feilong</td>
+                                  <td>feilong1</td>
+                                  <td>from inactive change to active</td>
+                                  <td></td>
+                                  <td></td>
+                                  <td>20/12/2014 4.30pm</td>
+                              </tr>
+                              
+                              </tbody>
+                          </table>
+                          
+                          <div class="text-center">
+                                  <ul class="pagination">
+                                      <li><a href="#">«</a></li>
+                                      <li><a href="#">1</a></li>
+                                      <li><a href="#">2</a></li>
+                                      <li><a href="#">3</a></li>
+                                      <li><a href="#">4</a></li>
+                                      <li><a href="#">5</a></li>
+                                      <li><a href="#">»</a></li>
+                                  </ul>
+                         </div>
+                          
+                      </section>
+                  </div>
+              </div>
+              <!-- table end -->
+              
+              <!-- page end-->
+          </section>
+      </section>
+      <!--main content end-->
+      
+      <!--footer start-->
+      <footer class="site-footer">
+          <div class="text-center">
+              &copy; Admin panel by fcsc.
+              <a href="#" class="go-top">
+                  <i class="icon-angle-up"></i>
+              </a>
+          </div>
+      </footer>
+      <!--footer end-->
+  </section>
+
+    <!-- js placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script class="include" type="text/javascript" src="js/jquery.dcjqaccordion.2.7.js"></script>
+    <script src="js/jquery.scrollTo.min.js"></script>
+    <script src="js/jquery.nicescroll.js" type="text/javascript"></script>
+    <script src="js/respond.min.js" ></script>
+
+    <!--common script for all pages-->
+    <script src="js/common-scripts.js"></script>
+
+
+  </body>
+</html>

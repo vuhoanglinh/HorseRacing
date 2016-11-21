@@ -1,0 +1,147 @@
+body.agent
+{
+	margin: 0px 0px 0px 0px;
+	background: transparent url(../Image/bg_menu.gif) repeat-y;
+}
+
+body.master
+{
+	margin: 0px 0px 0px 0px;
+	background: transparent url(../Image/bg_menu_master.gif) repeat-y;
+}
+body.super
+{
+	margin: 0px 0px 0px 0px;
+	background: transparent url(../Image/bg_menu_super.gif) repeat-y;
+}
+
+div.agent
+{
+	width: 200px;
+	height: 20px;
+	background: transparent url(../Image/bg_button.gif) no-repeat;
+}
+
+div.master
+{
+	width: 200px;
+	height: 20px;
+	background: transparent url(../Image/bg_button_master.gif) no-repeat;
+}
+div.super
+{
+	width: 200px;
+	height: 20px;
+	background: transparent url(../Image/bg_button_super.gif) no-repeat;
+}
+
+td.agent
+{
+	font-family: Tahoma;
+	font-size: 9pt;		
+	color: orange;
+	text-transform: uppercase;	
+	cursor: pointer;
+	width: 170px;
+	padding-left: 15px;	
+	font-weight: bold;
+}
+
+td.master
+{
+	font-family: Tahoma;
+	font-size: 9pt;		
+	font-weight: bold;	
+	color: white;
+	text-transform: uppercase;	
+	cursor: pointer;
+	padding-left: 15px;
+	width: 170px;
+}
+td.super
+{
+	font-family: Tahoma;
+	font-size: 9pt;		
+	font-weight: bold;	
+	color: white;
+	text-transform: uppercase;	
+	cursor: pointer;
+	padding-left: 15px;
+	width: 170px;
+}
+
+div
+{
+	font-family: Tahoma, verdana;
+	font-size: 8pt;	
+}
+
+a.agent
+{
+	color: white;
+	font-family: Tahoma, Verdana;
+	font-size: 8pt;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a.agent:link
+{
+	color: white;
+}
+
+a.agent:hover
+{
+	color: red;
+	text-decoration: none;
+}
+
+a.master
+{
+	color: #f0e68c;
+	font-family: Tahoma, Verdana;
+	font-size: 8pt;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a.master:link
+{
+	color: #f0e68c;
+}
+
+a.master:hover
+{
+	color: #ffa07a;
+	text-decoration: none;
+}
+
+a.super
+{
+	color: #f0e68c;
+	font-family: Tahoma, Verdana;
+	font-size: 8pt;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a.super:link
+{
+	color: #f0e68c;
+}
+
+a.super:hover
+{
+	color: #ffa07a;
+	text-decoration: none;
+}
+
+table.link td
+{
+	height: 20px;
+}
+
+table.link td.separator
+{
+	height: 10px;
+}
